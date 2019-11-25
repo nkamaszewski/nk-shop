@@ -4,6 +4,7 @@
   "description": "the backend of sick fits",
   "scripts": {
     "start": "nodemon -e js,graphql -x node src/index.js",
+    "debug": "nodemon -e js,graphql -x node --inspect src/index.s",
     "dev": "nodemon -e js,graphql -x node --inspect src/index.js",
     "test": "jest",
     "deploy": "prisma deploy --env-file variables.env"
